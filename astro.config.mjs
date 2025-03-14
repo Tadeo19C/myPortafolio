@@ -8,4 +8,8 @@ export default defineConfig({
   integrations: [tailwind()],
   output: 'server',
   adapter: vercel(),
+
+  server: {
+    port: 3000, // Especifica el puerto aquí
+  },
 });
