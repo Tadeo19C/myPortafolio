@@ -9,7 +9,4 @@ export default defineConfig({
   output: 'server',
   adapter: vercel(),
 
-  server: {
-    port: 3000, // Especifica el puerto aquí
-  },
 });
